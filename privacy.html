@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy – Sudden Scroller</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.png" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="icon.png" alt="Page Scroller Icon" class="logo">
+            <h1>Privacy Policy</h1>
+            <p class="tagline">Your privacy matters. Here's how we protect it.</p>
+            <a href="index.html" class="install-btn">← Back to Home</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <p><strong>Effective Date:</strong> July 23, 2025</p>
+
+            <p>Thank you for using <strong>Sudden Scroller</strong>.</p>
+
+            <h2>1. Data Collection</h2>
+            <p><strong>Sudden Scroller</strong> does not collect, store, or share any personal information or browsing
+                data from users.</p>
+
+            <h2>2. Local Usage Only</h2>
+            <p>The extension operates entirely within your browser and only interacts with the active webpage to enable
+                scrolling functionality. No data is sent to any server.</p>
+
+            <h2>3. No Third-Party Tools</h2>
+            <p>This extension does not use any third-party tracking, analytics, or advertising services.</p>
+
+            <h2>4. Contact</h2>
+            <p>If you have any questions, feel free to contact us at: <a
+                    href="mailto:livingext@gmail.com">livingext@gmail.com</a></p>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; <span id="year"></span> Sudden Scroller</p>
+        <button onclick="window.location.href='index.html'"
+            style="margin-top: 10px; padding: 6px 12px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">
+            Back to Home
+        </button>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
